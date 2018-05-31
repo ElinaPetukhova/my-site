@@ -4,7 +4,8 @@
         <title>Страница обо мне</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="reset.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+        <link rel="stylesheet" href="media.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     </head>
     <body>
 
@@ -16,6 +17,7 @@
                     <a href="#" class="button_me">Обо мне</a>
                     <a href="#" class="button_hobby"> Мое хобби</a>
                     <a href="#" class="button_favorite_films"> Любимые фильмы</a>
+                    <img src="icon/hamburger_icon.png" alt="menu" class="menu_icon">
                 </div>
 
                 <img src="image.jpg" alt="Me" class="my_avatar">
@@ -75,10 +77,10 @@
                                 Список Шиндлера
                             </div>
                             <div class="columns_text">
-                                <p>Историческая драма режиссёра Стивена Спилберга 1993 года о немецком бизнесмене и члене НСДАП Оскаре Шиндлере, спасшем более тысячи польских евреев от гибели во время Холокоста. Основан на романе Томаса Кенилли «Ковчег Шиндлера».</p>
+                                <p>Экранизация романа Томаса Кенилли «Ковчег Шиндлера». "Список Шиндлера" - признанный шедевр кинематографа, получивший множество призов, среди которых семь наград Американской Киноакадемии "Оскар", семь премий Британской киноакадемии, награда за "Лучший фильм" от Нью-Йоркской ассоциации кинокритиков и три престижных премии "Золотой Глобус". Лента рассказывает реальную историю загадочного Оскара Шиндлера, члена нацистской партии, преуспевающего фабриканта, спасшего во время Второй Мировой войны более тысячи ста евреев. Это триумф одного человека, не похожего на других, и драма тех, кто, благодаря ему, выжил в ужасный период человеческой истории.</p>
                             </div>
                         </div>
-                        <div class="columns">
+                        <div class="columns last_but_one">
                             <img src="for_films/exam.jpg" alt="exam" class="columns_img">
                             <div class="columns_title">
                                 Экзамен
@@ -103,21 +105,26 @@
             </div>
 
             <div class="write_me_container">
-                <img src="line-arrow/line-left.png" alt="line" class="line_left">
-                <span class="write_me">НАПИШИ МНЕ</span>
-                <img src="line-arrow/line-right.png" alt="line" class="line_right">
+                <div class="write_line"></div>
+                <h5 class="write_me">НАПИШИ МНЕ</h5>
+                <div class="write_line"></div>
+                <div class="clear"></div>
             </div>
             <div class="form" method="post">
                 <form action="#">
-                    <p class="form_text">Ваше имя<span class="star"> *</span></p>
-                    <input name=”username” type=”text”>
-                    <p class="form_text">Ваш email<span class="star"> *</span></p>
-                    <input name=”email” type=”text”>
+                    <label>
+                        <p class="form_text star">Ваше имя</p>
+                        <input name=”username” type=”text”>
+                    </label>
+                    <label>
+                        <p class="form_text star">Ваш email</p>
+                        <input name=”email” type=”text”>
+                    </label>
                     <p class="form_text">Откуда вы?</p>
                     <select name=”country”>
                         <option value=”Russia” selected=”selected”>Россия</option>
                         <option value=”Ukraine”>Украина</option>
-                        <option value=”Belarus”>Белорусь</option>
+                        <option value=”Belarus”>Беларусь</option>
                         <option value=”Other”>Другое</option>
                     </select>
                     <p class="form_text">Ваш пол</p>
@@ -129,9 +136,11 @@
                         <input class="radio" name="gender" type="radio" value="woman">
                         Женский
                     </label>
-                    <p class="form_text form_text_last">Ваше сообщение<span class="star"> *</span></p>
-                    <textarea name=”message”> </textarea>
-                    <p><input type="submit" class="send" value="Отправить">
+                    <label>
+                        <p class="form_text form_text_last star">Ваше сообщение</p>
+                        <textarea name=”message”></textarea>
+                    </label>
+                    <input type="submit" class="send" value="Отправить">
                 </form>
             </div>
 
@@ -143,3 +152,10 @@
 
     </body>
 </html>
+
+<!--
+
+2. Сделать блоки резиновыми (фильмы и форма). Для этого избавиться от фиксированной ширины.
+3. Не забывать про внутренние отступы слева и справа.
+
+-->

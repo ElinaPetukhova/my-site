@@ -1,0 +1,350 @@
+@media screen and (min-width: 901px) and (max-width: 1060px)
+{
+    .content
+    {
+        width: 800px;
+    }
+
+    .my_avatar
+    {
+        width: 275px;
+        height: 292px;
+    }
+
+    .quote_block
+    {
+        width: 475px; 
+        margin-top: 210px;
+    }
+    
+    .quote
+    {
+        font-size: 26px;
+    }
+    
+    .film_name
+    {
+        margin-right: 285px;
+    }
+    
+    .lists
+    {
+        width: 275px;
+    }
+    
+    .about_me
+    {
+        width: 470px;
+        margin-left: 20px;
+        margin-top: -110px;
+    }
+    
+    .top_title
+    {
+        font-size: 42px;
+    }
+    
+    .about_films
+    {
+        max-width: 800px;
+    }
+    
+    .columns
+    {
+        width: 50%;
+        box-sizing: border-box;
+        margin-right: 0;
+        padding: 0 10px;
+    }
+    
+    .columns_img
+    {
+        width: 100%;
+    }
+    
+    .button_films
+    {
+        margin-left: 300px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px)
+{
+    .content
+    {
+        width: 600px;
+    }
+    
+    .button_me, .button_hobby, .button_favorite_films
+    {
+        display: none;
+    }
+    
+    a.button_me:hover, a.button_hobby:hover, a.button_favorite_films:hover
+    {
+        display: none;
+    }
+    
+    .menu_icon
+    {
+        display: block;
+        padding-left: 20px;
+    }
+    
+    .my_avatar
+    {
+        width: 175px;
+        height: 192px;
+    }
+
+    .quote_block
+    {
+        width: 380px; 
+        margin-top: 210px;
+    }
+    
+    .quote
+    {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .film_name
+    {
+        margin-right: 215px;
+        font-size: 14px;
+    }
+    
+    .lists
+    {
+        width: 175px;
+    }
+    
+    .title_for_lists
+    {
+        font-size: 20px;
+    }
+    
+    .about_me
+    {
+        width: 360px;
+        margin-left: 30px;
+        margin-top: -50px;
+    }
+    
+    .top_title
+    {
+        font-size: 38px;
+    }
+    
+    .space
+    {
+        font-size: 30px;
+    }
+    
+    .information,
+    .about_space
+    {
+        font-size: 16px;
+    }
+    
+    .background
+    {
+        background-size: auto 360px;
+    }
+    
+    .about_films
+    {
+        max-width: 600px;
+    }
+    
+    .columns
+    {
+        width: 45%;
+        margin-right: 25px;
+    }
+    
+    .columns_img
+    {
+        width: 100%;
+    }  
+    
+    .button_films
+    {
+        margin-left: 150px;
+    }
+    
+    .write_me
+    {
+        font-size: 32px;
+    }
+    
+    .write_me_container
+    {
+        width: 100%;
+        padding-left: 25%;
+        box-sizing: border-box;
+    }
+    
+    .write_line
+    {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px)
+{
+    .content
+    {
+        width: 400px;
+    }
+    
+    .button_me, .button_hobby, .button_favorite_films
+    {
+        display: none;
+    }
+    
+    a.button_me:hover, a.button_hobby:hover, a.button_favorite_films:hover
+    {
+        display: none;
+    }
+    
+    .menu_icon
+    {
+        display: block;
+        padding-left: 20px;
+    }
+    
+    .my_avatar
+    {
+        width: 380px;
+        height: 340px;
+    }
+
+    .quote_block
+    {
+        width: 380px; 
+        margin-top: 40px;
+        float: left;
+        padding-left: 15px;
+    }
+    
+    .quote
+    {
+        color: rgb(51,51,51);
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    .film_name
+    {
+        color: rgb(51,51,51);
+        margin-right: 190px;
+        font-size: 16px;
+        line-height: 40px;
+    }
+    
+    .lists
+    {
+        width: 380px;
+        padding-left: 15px;
+    }
+    
+    .title_for_lists
+    {
+        font-size: 19px;
+    }
+    
+    .items
+    {
+        font-size: 17px;
+    }
+    
+    .about_me
+    {
+        width: 360px;
+        margin-top: 0;
+        float: left;
+        padding-left: 15px;
+    }
+    
+    .top_title
+    {
+        font-size: 38px;
+    }
+    
+    .space
+    {
+        font-size: 30px;
+    }
+    
+    .information,
+    .about_space,
+    {
+        font-size: 16px;
+    }
+    
+    .background
+    {
+        background-size: auto 360px;
+    }
+    
+    .title
+    {
+        font-size: 32px;
+    }
+    
+    .about_films
+    {
+        max-width: 400px;
+    }
+    
+     .columns
+    {
+        width: 80%;
+        margin-right: 0;
+    }
+    
+    .columns_img
+    {
+        width: 100%;
+    }
+    
+    .button_films
+    {
+        margin-left: 50px;
+    }
+    
+    .form, .write_me_container
+    {
+        max-width: 400px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .write_line
+    {
+        display: none;
+    }
+    
+    .write_me
+    {
+        font-size: 32px;
+    }
+    
+    input[type=”text”], textarea
+    {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    select
+    {
+        width: 100%;
+    }
+    
+    .send, .send:hover
+    {
+        width: 200px;
+    }
+}
